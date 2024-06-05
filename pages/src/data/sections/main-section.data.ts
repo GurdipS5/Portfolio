@@ -14,14 +14,14 @@ const mainSectionData = {
   role: 'DevOps Lead',
   details: [
     { label: 'Phone', value: '605 475 6961', url: 'tel:605 475 6961' },
-    { label: 'Email', value: 'mark.freeman.dev@gmail.com', url: 'mailto:mark.freeman.dev@gmail.com' },
+    { label: 'Email', value: 'gurdip.sira@gmail.com', url: 'mailto:mark.freeman.dev@gmail.com' },
     { label: 'From', value: 'London, England' },
     { label: 'Salary range', value: '100  000 - 110 000 GBP' },
   ],
   pdfDetails: [
     { label: 'Phone', value: '605 475 6961' },
     { label: 'Email', value: 'gurdip.sira@gmail.com' },
-    { label: 'LinkedIn', value: '/in/mark-freeman', url: 'https://linkedin.com' },
+    { label: 'LinkedIn', value: '/in/gurdipsira', url: 'https://linkedin.com' },
     { label: 'GitHub', value: '/gurdips5', url: 'https://github.com' },
     { label: 'Website', value: 'https://gurdipsira.dev', url: '/', fullRow: true },
   ],
@@ -31,7 +31,7 @@ const mainSectionData = {
   action: {
     label: 'Download CV',
     url: '/cv.pdf',
-    downloadedFileName: 'CV-Mark_Freeman.pdf',
+    downloadedFileName: 'CV-GurdipSira.pdf',
   },
   links: [facebook({ url: '#' }), github({ url: '#' }), linkedin({ url: '#' }), twitter({ url: '#' })],
 } as const satisfies ReadonlyDeep<MainSection>;

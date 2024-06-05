@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "czg": "^1.9.1",
+    "czg": "^1.9.2",
     "readme-md-generator": "^1.0.0"
   }
 }

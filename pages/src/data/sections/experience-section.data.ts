@@ -3,12 +3,18 @@ import type { ReadonlyDeep } from 'type-fest';
 import { facebook, github, instagram, linkedin, twitter, website } from '../helpers/links';
 import {
   azure,
+  azuredevops,
+  aws,
   csharp,
-  eslint,
- kubernetes,
-  tailwindCss,
-  typescript,
-  vue,
+  helm,
+  kubernetes,
+  openai,
+  octopusdeploy,
+  proget,
+  sonarqube,
+  teamcity,
+ terraform
+
 } from '../helpers/skills';
 
 const experienceSectionData = {
@@ -22,42 +28,42 @@ const experienceSectionData = {
     {
       role: 'DevOps Lead',
       company: 'Virgin Money',
-      image: import('@/assets/logos/google-logo.jpg'),
+      image: import('@/assets/logos/virginmoney.jpg'),
       dates: [new Date('2020-02'), null],
       description: `
-        - Architected and deployed RPA to automate cash ISAs, saving the company
-        - Improved build times by deploying A
-        - Duis vel ex hendrerit, commodo odio sed, aliquam enim.
-        - Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi.
-        - Nunc malesuada leo et est iaculis facilisis.
-        - Fusce eu urna ut magna malesuada fringilla.
+        - Led a seamless migration of 50+ applications to AWS/Azure, resulting in a 30% reduction in infrastructure costs and improved scalability.
+        - Manage a fleet of Kubernetes clusters, running AI and Machine Learning models, to detect fraud. This has led to earlier detection and prevention of customer fraud.
+        - Developed common Terraform modules, reducing code duplication and time to release and leading to an increase in developer productivity and code standardisation, reducing bugs and time to deployment.
+        - Worked as a DevOps Lead for the Dynamics 365 team, to improve their release management processes, automate TOIL and instil a DevOps culture.
+        - Built a Research and Development function to look at innovation and improving our digital products. This includes using AI, Machine Learning and Data Engineering in Azure.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [azure(), kubernetes(), typescript(), nx(), firebase()],
+        tags: [azure(), kubernetes(), helm(), openai(), terraform(), ],
       },
       links: [facebook({ url: '#' }), linkedin({ url: '#' })],
     },
     {
       role: 'Senior DevOps Engineerr',
       company: 'Maritech',
-      image: import('@/assets/logos/facebook-logo.png'),
+      image: import('@/assets/logos/sea.jpg'),
       dates: [new Date('2019-04'), new Date('2020-02')],
       description: `
-        - Aenean eget ultricies felis. Pellentesque dictum massa ut tellus eleifend, sed posuere massa mattis.
-        - Ut posuere massa lacus, eleifend molestie tortor auctor vel.
-        - Sed sed sollicitudin eros, id ultricies mi. Aliquam sodales elit vel ante tempor, non vehicula nibh facilisis.
-        - Cras feugiat ultricies maximus. Aliquam tristique ex odio, ac semper urna accumsan a.
+        - Integrated Veracode into Azure DevOps CICD pipelines, thereby improving our security posture, compliance and ability to win new customers
+        - Championed an AppSec program with developers, to implement secure development practices, resulting in less CI failures.
+        - Created Terraform modules for an Akamai CDN/DDOS deployment, to protect against bot attacks
+        - Deployed a comprehensive monitoring and alerting system using Prometheus and Grafana, reducing system downtime by 40% through proactive incident management.
+        - Implemented a robust CI/CD pipeline using Azure DevOps, which reduced the deployment frequency from monthly to daily, enhancing product delivery speed and reliability.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [csharp(), kubernetes(), chakraUi(), eslint()],
+        tags: [csharp(), kubernetes(), helm(), azuredevops(), octopusdeploy(), proget(), teamcity() ]
       },
       links: [website({ url: '#' }), instagram({ url: '#' })],
     },
     {
-      role: 'Junior front-end developer',
-      company: 'GitLab',
+      role: 'Senior DevOps Engineer',
+      company: 'Reed Technology',
       image: import('@/assets/logos/gitlab-logo.png'),
       dates: [new Date('2016-09'), new Date('2019-04')],
       description: `
@@ -70,7 +76,7 @@ const experienceSectionData = {
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [vue(), tailwindCss(), pnpm()],
+        tags: [aws(), azuredevops() ]
       },
       links: [twitter({ url: '#' }), github({ url: '#' })],
     },

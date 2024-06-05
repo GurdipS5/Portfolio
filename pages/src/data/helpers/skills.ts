@@ -32,12 +32,28 @@ export const astro = createSkillFactory({
   url: 'https://astro.build/',
 });
 
+export const aws = createSkillFactory({
+  name: 'Amazon Web Services',
+  icon: 'simple-icons:amazonaws',
+  iconColor: '#232F3E',
+  url: 'https://astro.build/',
+});
+
+
 export const azure = createSkillFactory({
   name: 'Azure',
   icon: 'simple-icons:microsoftazure',
   iconColor: '#0078D4',
   url: 'https://azure.com/',
 });
+
+export const azuredevops = createSkillFactory({
+  name: 'Azure DevOps',
+  icon: 'simple-icons:azuredevops',
+  iconColor: '#0078D7',
+  url: 'https://azure.com/',
+});
+
 
 export const blazor = createSkillFactory({
   name: 'Blazor',
@@ -67,12 +83,27 @@ export const eslint = createSkillFactory({
   url: 'https://git-scm.com/',
 });
 
+export const Go = createSkillFactory({
+  name: 'Go',
+  icon: 'simple-icons:eslint',
+  iconColor: '#00ADD8',
+  url: 'https://git-scm.com/',
+});
+
 export const Git = createSkillFactory({
   name: 'Git',
   icon: 'simple-icons:git',
   iconColor: '#4B32C3',
   url: 'https://git-scm.com/',
 });
+
+export const Hasura = createSkillFactory({
+  name: 'Hasura',
+  icon: 'simple-icons:hasura',
+  iconColor: '#1EB4D4',
+  url: 'https://hasura.io/'
+});
+
 
 
 export const helm = createSkillFactory({
@@ -96,8 +127,22 @@ export const octopusdeploy = createSkillFactory({
   url: 'https://octopusdeploy.com',
 });
 
+export const openai = createSkillFactory({
+  name: 'OpenAI',
+  icon: 'simple-icons:openai',
+  iconColor: '#412991',
+  url: 'https://octopusdeploy.com',
+});
+
 export const postgreSql = createSkillFactory({
   name: 'PostgreSQL',
+  icon: 'simple-icons:postgresql',
+  iconColor: '#4169E1',
+  url: 'https://www.postgresql.org/',
+});
+
+export const proget = createSkillFactory({
+  name: 'ProGet',
   icon: 'simple-icons:postgresql',
   iconColor: '#4169E1',
   url: 'https://www.postgresql.org/',
@@ -116,6 +161,14 @@ export const pulumi = createSkillFactory({
   iconColor: '#8A3391',
   url: 'https://pulumi.com',
 });
+
+export const SonarQube = createSkillFactory({
+  name: 'SonarQube',
+  icon: 'simple-icons:sonarqube',
+  iconColor: '#4E9BCD',
+  url: 'https://sonarqube.org',
+});
+
 
 export const tailwindCss = createSkillFactory({
   name: 'Tailwind CSS',
