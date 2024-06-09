@@ -162,7 +162,7 @@ export const pulumi = createSkillFactory({
   url: 'https://pulumi.com',
 });
 
-export const SonarQube = createSkillFactory({
+export const sonarqube = createSkillFactory({
   name: 'SonarQube',
   icon: 'simple-icons:sonarqube',
   iconColor: '#4E9BCD',

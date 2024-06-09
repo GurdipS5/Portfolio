@@ -32,9 +32,10 @@ const experienceSectionData = {
       dates: [new Date('2020-02'), null],
       description: `
         - Led a seamless migration of 50+ applications to AWS/Azure, resulting in a 30% reduction in infrastructure costs and improved scalability.
-        - Manage a fleet of Kubernetes clusters, running AI and Machine Learning models, to detect fraud. This has led to earlier detection and prevention of customer fraud.
+        - Implemented efficient resource allocation strategies, leading to a 30% reduction in cloud infrastructure costs.
+        - Successfully designed and deployed highly available Kubernetes clusters in production environments, supporting over 100 microservices.
         - Developed common Terraform modules, reducing code duplication and time to release and leading to an increase in developer productivity and code standardisation, reducing bugs and time to deployment.
-        - Worked as a DevOps Lead for the Dynamics 365 team, to improve their release management processes, automate TOIL and instil a DevOps culture.
+        - Worked as a DevOps Lead for the Dynamics 365 team, to improve their release management processes, automate TOIL and instil a DevOps culture of experimentation.
         - Built a Research and Development function to look at innovation and improving our digital products. This includes using AI, Machine Learning and Data Engineering in Azure.
       `,
       tagsList: {
@@ -50,14 +51,15 @@ const experienceSectionData = {
       dates: [new Date('2019-04'), new Date('2020-02')],
       description: `
         - Integrated Veracode into Azure DevOps CICD pipelines, thereby improving our security posture, compliance and ability to win new customers
+        - Integrated Kubernetes with best-in-class security tooling (e.g., Istio, Calico) to enforce network policies and secure inter-service communication, achieving compliance with industry standards.
         - Championed an AppSec program with developers, to implement secure development practices, resulting in less CI failures.
-        - Created Terraform modules for an Akamai CDN/DDOS deployment, to protect against bot attacks
+        - Created Terraform modules for an Akamai CDN/DDOS deployment, to protect against bot attacks. This improved productivity and reduced repetition.
         - Deployed a comprehensive monitoring and alerting system using Prometheus and Grafana, reducing system downtime by 40% through proactive incident management.
         - Implemented a robust CI/CD pipeline using Azure DevOps, which reduced the deployment frequency from monthly to daily, enhancing product delivery speed and reliability.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [csharp(), kubernetes(), helm(), azuredevops(), octopusdeploy(), proget(), teamcity() ]
+        tags: [csharp(), kubernetes(), helm(), sonarqube(), azuredevops(), octopusdeploy(), proget(), teamcity() ]
       },
       links: [website({ url: '#' }), instagram({ url: '#' })],
     },

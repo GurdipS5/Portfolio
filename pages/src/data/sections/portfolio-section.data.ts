@@ -33,7 +33,7 @@ const portfolioSectionData = {
       dates: [new Date('2020-03'), null],
       details: [
         { label: 'Team size', value: '1 person' },
-        { label: 'My role', value: ['Front-end Developer', 'Designer'] },
+        { label: 'My role', value: ['Backend Developer', 'Architect'] },
         { label: 'Company', value: 'None' },
         { label: 'Category', value: ['Web app', 'Open source'] },
       ],

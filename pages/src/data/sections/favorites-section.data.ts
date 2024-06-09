@@ -73,17 +73,17 @@ const favoritesSectionData = {
     ],
   },
   videos: {
-    title: 'Videos I watched',
+    title: 'Videos I have watched',
     data: [
       {
         image: import('@/assets/favorites/videos/video-1.jpeg'),
-        title: 'Building Resilient Frontend Architecture • Monica Lent • GOTO 2019',
-        url: 'https://youtu.be/TqfbAXCCVwE',
+        title: '20 System Design Concepts Explained in 10 Minutes',
+        url: 'https://www.youtube.com/watch?v=i53Gi_K3o7I',
       },
       {
         image: import('@/assets/favorites/videos/video-2.jpeg'),
-        title: 'Scaling Yourself • Scott Hanselman • GOTO 2012',
-        url: 'https://youtu.be/FS1mnISoG7U',
+        title: ' Clean Architecture with ASP.NET Core 8 | .NET Conf 2023',
+        url: 'https://www.youtube.com/watch?v=yF9SwL0p0Y0',
       },
       {
         image: import('@/assets/favorites/videos/video-3.jpeg'),
