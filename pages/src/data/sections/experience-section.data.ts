@@ -69,12 +69,7 @@ const experienceSectionData = {
       image: import('@/assets/logos/gitlab-logo.png'),
       dates: [new Date('2016-09'), new Date('2019-04')],
       description: `
-        Nulla volutpat justo ante, rhoncus posuere massa egestas in:
-
-        - Quisque pellentesque, dolor nec sollicitudin iaculis, sem velit consequat ligula, eget tempus ligula leo et est.
-        - Maecenas ut elit sit amet nibh maximus condimentum in nec lorem. Pellentesque tincidunt odio vel leo suscipit, in interdum mi gravida.
-
-        Donec non vulputate augue 🤓
+      - Worked on a cost cutting exercise
       `,
       tagsList: {
         title: 'Technologies',

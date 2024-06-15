@@ -39,7 +39,6 @@ export const aws = createSkillFactory({
   url: 'https://astro.build/',
 });
 
-
 export const azure = createSkillFactory({
   name: 'Azure',
   icon: 'simple-icons:microsoftazure',
@@ -53,7 +52,6 @@ export const azuredevops = createSkillFactory({
   iconColor: '#0078D7',
   url: 'https://azure.com/',
 });
-
 
 export const blazor = createSkillFactory({
   name: 'Blazor',
@@ -148,12 +146,7 @@ export const proget = createSkillFactory({
   url: 'https://www.postgresql.org/',
 });
 
-export const prettier = createSkillFactory({
-  name: 'Prettier',
-  icon: 'simple-icons:prettier',
-  iconColor: '#F7B93E',
-  url: 'https://prettier.io/',
-});
+
 
 export const pulumi = createSkillFactory({
   name: 'Pulumi',
@@ -162,19 +155,18 @@ export const pulumi = createSkillFactory({
   url: 'https://pulumi.com',
 });
 
+export const sqlserver = createSkillFactory({
+  name: 'SQL Server',
+  icon: 'simple-icons:microsoftsqlserver',
+  iconColor: '#4E9BCD',
+  url: 'https://sonarqube.org',
+});
+
 export const sonarqube = createSkillFactory({
   name: 'SonarQube',
   icon: 'simple-icons:sonarqube',
   iconColor: '#4E9BCD',
   url: 'https://sonarqube.org',
-});
-
-
-export const tailwindCss = createSkillFactory({
-  name: 'Tailwind CSS',
-  icon: 'simple-icons:tailwindcss',
-  iconColor: '#06B6D4',
-  url: 'https://tailwindcss.com/',
 });
 
 export const teamcity = createSkillFactory({

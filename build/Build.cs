@@ -21,6 +21,9 @@ class Build : NukeBuild
 
     public static int Main () => Execute<Build>(x => x.Compile);
 
+    [PathVariable]
+    readonly Tool Npm;
+
     [Parameter("Configuration to build - Default is 'Debug' (local) or 'Release' (server)")]
     readonly Configuration Configuration = IsLocalBuild ? Configuration.Debug : Configuration.Release;
 
@@ -28,20 +31,22 @@ class Build : NukeBuild
         .Before(Restore)
         .Executes(() =>
         {
+            Npm("install");
         });
 
-    Target Clean => _ => _
+    Target Build _ => _
         .Before(Restore)
         .Executes(() =>
         {
+          Npm("run build");
         });
 
-    Target Restore => _ => _
+    Target RunPrettier => _ => _
         .Executes(() =>
         {
         });
 
-    Target Compile => _ => _
+    Target NerdbankGitversioning => _ => _
         .DependsOn(Restore)
         .Executes(() =>
         {

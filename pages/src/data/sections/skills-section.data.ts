@@ -8,15 +8,12 @@ import {
   blazor,
   csharp,
   dotnet,
-  eslint,
   helm,
   kubernetes,
   octopusdeploy,
   teamcity,
   postgreSql,
-  prettier,
-  tailwindCss,
-  typescript, Go,
+  Go,
 } from '../helpers/skills';
 
 const skillsSectionData = {
@@ -34,7 +31,7 @@ const skillsSectionData = {
         azure({
           level: 5,
           description:
-            'Proin ut erat sed massa tempus suscipit. Mauris efficitur nunc sem, nec scelerisque ligula bibendum ut.',
+            '',
         }),
 
         aws({
@@ -52,13 +49,13 @@ const skillsSectionData = {
         csharp({
           level: 5,
           description:
-            'Proin ut erat sed massa tempus suscipit. Mauris efficitur nunc sem, nec scelerisque ligula bibendum ut.',
+            'I am proficient in C#, with extensive experience in building robust, scalable applications. My expertise spans various aspects of C# development, including OOP and Web Development',
         }),
 
         dotnet({
           level: 5,
           description:
-            'Proin ut erat sed massa tempus suscipit. Mauris efficitur nunc sem, nec scelerisque ligula bibendum ut.',
+            'I have vast expertise in the build and deployment of dotnet core applications, up to dotnet core 8.',
         }),
 
         helm({
@@ -83,30 +80,14 @@ const skillsSectionData = {
         teamcity({
           level: 5,
           description:
-            'Proin ut erat sed massa tempus suscipit. Mauris efficitur nunc sem, nec scelerisque ligula bibendum ut.',
+            'I am adept at using TeamCity for continuous integration and continuous deployment (CI/CD), ensuring streamlined and efficient development workflows. My expertise includes build automation and artifact management.',
         }),
 
-        typescript({
-          level: 4,
-          description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
-        }),
 
         helm({
           level: 4,
           description: 'Nulla interdum pellentesque ultricies. Ut id eros commodo, ultrices ligula eu, elementum ante.',
         }),
-
-
-        tailwindCss({ level: 3 }),
-
-        prettier({ level: 5 }),
-
-        eslint({
-          level: 4,
-          description:
-            'Nulla tempor turpis at vehicula pharetra. Vestibulum tellus tortor, commodo et suscipit id, lobortis id nunc.',
-        }),
-
 
         postgreSql({ level: 2 }),
 
