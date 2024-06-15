@@ -10,7 +10,6 @@ import {
  octopusdeploy,
   teamcity,
   postgreSql,
-  prettier,
 
 } from '../helpers/skills';
 
@@ -50,7 +49,7 @@ const portfolioSectionData = {
         'Kinderworx is a B2B SAAS app for managing your nursery.',
       tagsList: {
         title: 'Technologies',
-        tags: [csharp(), azure(), aws(), postgreSql(), kubernetes(), helm(), octopusdeploy(), teamcity(), prettier()],
+        tags: [csharp(), azure(), aws(), postgreSql(), kubernetes(), helm(), octopusdeploy(), teamcity()],
       },
       links: [website({ url: '#' }), github({ url: '#' })],
     }
