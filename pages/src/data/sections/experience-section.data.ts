@@ -1,6 +1,6 @@
 import type { ExperienceSection } from '@/types/sections/experience-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { facebook, github, instagram, linkedin, twitter, website } from '../helpers/links';
+import { facebook, github, linkedin, twitter, website } from '../helpers/links';
 import {
   azure,
   azuredevops,
@@ -40,12 +40,12 @@ const experienceSectionData = {
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [azure(), kubernetes(), helm(), openai(), terraform(), ],
+        tags: [azure(), kubernetes(), helm(), openai(), terraform() ],
       },
       links: [facebook({ url: '#' }), linkedin({ url: '#' })],
     },
     {
-      role: 'Senior DevOps Engineerr',
+      role: 'Senior DevOps Engineer',
       company: 'Maritech',
       image: import('@/assets/logos/sea.jpg'),
       dates: [new Date('2019-04'), new Date('2020-02')],
@@ -61,7 +61,7 @@ const experienceSectionData = {
         title: 'Technologies',
         tags: [csharp(), kubernetes(), helm(), sonarqube(), azuredevops(), octopusdeploy(), proget(), teamcity() ]
       },
-      links: [website({ url: '#' }), instagram({ url: '#' })],
+      links: [website({ url: '#' }) ],
     },
     {
       role: 'Senior DevOps Engineer',

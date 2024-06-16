@@ -127,6 +127,14 @@ export const kubernetes = createSkillFactory({
   iconColor: '##326CE5',
   url: 'https://eslint.org/',
 });
+
+export const npm = createSkillFactory({
+  name: 'NPM',
+  icon: 'simple-icons:npm',
+  iconColor: '##326CE5',
+  url: 'https://www.npmjs.com/',
+});
+
 export const octopusdeploy = createSkillFactory({
   name: 'Octopus Deploy',
   icon: 'simple-icons:octopusdeploy',
