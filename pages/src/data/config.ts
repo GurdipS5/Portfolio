@@ -4,7 +4,7 @@ import type { ReadonlyDeep } from 'type-fest';
 
 const config = {
   i18n: {
-    locale: 'en-UK',
+    locale: uk,
     dateFormat: 'MMMM yyyy',
     translations: {
       now: 'Now',
