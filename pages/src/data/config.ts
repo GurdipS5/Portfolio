@@ -4,10 +4,10 @@ import type { ReadonlyDeep } from 'type-fest';
 
 const config = {
   i18n: {
-    locale: uk,
+    locale: 'en-UK',
     dateFormat: 'MMMM yyyy',
     translations: {
-      now: 'now',
+      now: 'Now',
     },
   },
   meta: {
