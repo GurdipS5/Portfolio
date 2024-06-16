@@ -66,10 +66,10 @@ const experienceSectionData = {
     {
       role: 'Senior DevOps Engineer',
       company: 'Reed Technology',
-      image: import('@/assets/logos/gitlab-logo.png'),
+      image: import('@/assets/logos/reed.png'),
       dates: [new Date('2016-09'), new Date('2019-04')],
       description: `
-      - Worked on a cost cutting exercise
+      - Worked on a cost cutting campaign,
       `,
       tagsList: {
         title: 'Technologies',
