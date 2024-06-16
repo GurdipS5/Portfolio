@@ -25,6 +25,15 @@ export const apolloGraphql = createSkillFactory({
   url: 'https://www.apollographql.com/',
 });
 
+
+export const ansible = createSkillFactory({
+  name: 'Ansible',
+  icon: 'simple-icons:ansible',
+  iconColor: '#311C87',
+  url: 'https://www.apollographql.com/',
+});
+
+
 export const astro = createSkillFactory({
   name: 'Astro',
   icon: 'simple-icons:astro',
