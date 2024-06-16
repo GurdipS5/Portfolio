@@ -7,7 +7,7 @@ const config = {
     locale: uk,
     dateFormat: 'MM yyyy',
     translations: {
-      now: 'uk',
+      now: 'now',
     },
   },
   meta: {
